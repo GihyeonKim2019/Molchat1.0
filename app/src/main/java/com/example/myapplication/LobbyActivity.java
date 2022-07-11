@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -18,6 +19,7 @@ import java.util.List;
 public class LobbyActivity extends AppCompatActivity {
     private ViewPager2 viewPager2;
     private TabLayout tabLayout;
+    private final String TAG = "MainActivityLog";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +44,6 @@ public class LobbyActivity extends AppCompatActivity {
 
                 TextView textView = new TextView(LobbyActivity.this);
                 textView.setText(tabElement.get(position));
-
 
             }
         }).attach();

@@ -6,14 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import java.net.URISyntaxException;
-import io.socket.client.IO;
-import io.socket.client.Socket;
+
+import java.net.Socket;
 
 public class Fragment1 extends Fragment {
     public static Fragment1 newInstance(int number) {
@@ -24,6 +22,7 @@ public class Fragment1 extends Fragment {
         return fragment1;
     }
     private Socket mSocket;
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

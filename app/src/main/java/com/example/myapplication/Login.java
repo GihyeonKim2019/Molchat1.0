@@ -26,8 +26,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Login extends AppCompatActivity{
 
     private final String TAG = "MainActivityLog";
-    //위험: URL 수정
-    private final String URL =  "https://e6f5-143-248-168-57.jp.ngrok.io";
+    //위험: URL 수정, 주의
+    private final String URL =  "https://063a-192-249-18-215.jp.ngrok.io";
 
 
     private Retrofit retrofit;
@@ -71,14 +71,13 @@ public class Login extends AppCompatActivity{
                     @Override
                     public void onResponse(Call<Post> call, Response<Post> response) {
                         int ID = response.body().getID();
-                        Log.v(TAG, "로그인에 성공하였습니다.");
                         Toast.makeText(getApplicationContext(), "로그인에 성공하였습니다.", Toast.LENGTH_SHORT).show();
                         //위험
                         ((GlobalId)getApplication()).setGlobalId(id);
-
                         Intent intent = new Intent(Login.this, LobbyActivity.class);
                         startActivity(intent);
-                        finish();
+                        Log.v(TAG, "???");
+                        //finish();
                     }
                     @Override
                     public void onFailure(Call<Post> call, Throwable t) {

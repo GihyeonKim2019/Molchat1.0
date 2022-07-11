@@ -3,28 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_chat_input_box.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_chat_item_border.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_chat_left_item.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_chat_right_item.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_gallery_button.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_item_border.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable-v24/ic_send_button.xml" value="0.288" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.218" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.218" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1925" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_lobby.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_main.xml" value="0.3625" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_matchingroom.xml" value="0.22" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_waitlist.xml" value="0.23205128205128206" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/chat_left_item.xml" value="0.2838541666666667" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/chat_right_image.xml" value="0.2838541666666667" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/chat_right_item.xml" value="0.6" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment1.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment2.xml" value="0.12760416666666666" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment3.xml" value="0.12760416666666666" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/listview_item.xml" value="0.3625" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication10/app/src/main/res/xml/network_security_config.xml" value="0.184375" />
+        <entry key="..\:/Users/OSM/AndroidStudioProjects/Molchat1.0/app/src/main/res/layout/activity_profile.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/OSM/AndroidStudioProjects/Molchat1.0/app/src/main/res/layout/fragment3.xml" value="0.18333333333333332" />
       </map>
     </option>
   </component>

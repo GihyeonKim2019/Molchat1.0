@@ -18,7 +18,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Join extends AppCompatActivity{
     private final String TAG = "MainActivityLog";
-    private final String URL =  "https://e6f5-143-248-168-57.jp.ngrok.io";
+    // 주의
+    private final String URL =  "https://063a-192-249-18-215.jp.ngrok.io";
 
 
     private Retrofit retrofit;

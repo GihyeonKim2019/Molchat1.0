@@ -39,7 +39,8 @@
         <activity android:name=".LobbyActivity"/>
         <activity android:name=".WaitlistActivity"/>
         <activity android:name=".MatchingRoomActivity"/>
-
+        <activity android:name=".notice"/>
+        <activity android:name=".evaluation"/>
         <activity android:name=".Join"/>
 
 

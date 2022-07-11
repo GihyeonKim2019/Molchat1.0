@@ -36,16 +36,18 @@ public interface ApiService {
     Call<Post> giveid1(@Query("Userid") String Userid);
     // Userid를 보낸다, 응답 X
 
+    //주의 변경
     @GET("/retrofit/profile0/")
-    Call<Post> get_profile_data(@Query("ID") Integer ID);
+    Call<Post> get_profile_data(@Query("Userid") String Userid);
     // ID를 보내고 | row를 불러온다.
 
     @Multipart
     @POST("/upload")
     Call<Post> give_profile_image(@Part MultipartBody.Part image, @Part("upload") RequestBody name, @Query("ID") Integer ID);
 
+    //주의 변경
     @GET("/download")
-    Call<ResponseBody> get_profile_image(@Query("ID") Integer ID);
+    Call<ResponseBody> get_profile_image(@Query("Userid") String Userid);
 
     @GET("/Noticeupload")
     Call<Post> noticeupload(@Query("ID") Integer ID);
@@ -56,8 +58,9 @@ public interface ApiService {
     @GET("/Noticedownloadimage")
     Call<ResponseBody> get_noticeboard_image(@Query("Image") String image);
 
+    //주의 변경
     @GET("/Noticeupload")
-    Call<ResponseBody> give_noticeboard_content(@Query("Content") String Content, @Query("Userid") String Userid, @Query("Userid1") String Userid1);
+    Call<ResponseBody> give_noticeboard_content(@Query("Content") String Content, @Query("Userid") String Userid, @Query("Userid_friend") String Userid1);
 
     @GET("/Noticeuploadsecret")
     Call<ResponseBody> give_noticeboard_secret_content(@Query("Content") String Content, @Query("Userid") String Userid);
